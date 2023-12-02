@@ -23,4 +23,5 @@ namespace Serwer
 
         }
     }
+    int Chuj; 
 }

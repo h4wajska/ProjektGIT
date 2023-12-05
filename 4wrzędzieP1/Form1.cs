@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO.Ports;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+
 
 
 
@@ -47,6 +47,14 @@ namespace _4wrzędzieP1
         }
         private void Form1_Load(object sender, EventArgs e)
         {
+            foreach (Control ctrl in this.Controls)
+            {
+                if (ctrl is System.Windows.Forms.TextBox textBox)
+                {
+                    textBox.ReadOnly = true;
+                }
+            }
+
             string[] baudRates = { "2400", "9600", "14400", "19200", "38400", "57600", "115200" };
             comboBox2.Items.AddRange(baudRates);
             comboBox2.Text = baudRates[0].ToString();
@@ -305,6 +313,27 @@ namespace _4wrzędzieP1
                     textBox36.AppendText("O");
                 }
             }
+        }
+
+        private void ClearTextBoxes()       //funkcja do czyszczenia wszystkich textboxów
+        {
+            Action<Control.ControlCollection> func = null;
+
+            func = (controls) =>
+            {
+                foreach (Control control in controls)
+                    if (control is TextBox)
+                        (control as TextBox).Clear();
+                    else
+                        func(control.Controls);
+            };
+
+            func(Controls);
+        }
+
+        private void btnClear_Click(object sender, EventArgs e) //wywołanie funkcji czyszczenia textboxów
+        {
+            ClearTextBoxes();
         }
     }
 }

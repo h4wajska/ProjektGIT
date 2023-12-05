@@ -45,6 +45,14 @@ namespace Serwer
 
         private void Serwer_Load(object sender, EventArgs e)
         {
+            foreach (Control ctrl in this.Controls)     //uniemożliwienie wpisania wartości w textboxy
+            {
+                if (ctrl is TextBox textBox)
+                {
+                    textBox.ReadOnly = true;
+                }
+            }
+
             string[] baudRates = { "2400", "9600", "14400", "19200", "38400", "57600", "115200" };
             comboBox2.Items.AddRange(baudRates);
             comboBox2.Text = baudRates[0].ToString();
@@ -302,6 +310,27 @@ namespace Serwer
                     textBox36.AppendText("X");
                 }
             }
+        }
+
+        private void ClearTextBoxes()       //funkcja do czyszczenia wszystkich textboxów
+        {
+            Action<Control.ControlCollection> func = null;
+
+            func = (controls) =>
+            {
+                foreach (Control control in controls)
+                    if (control is TextBox)
+                        (control as TextBox).Clear();
+                    else
+                        func(control.Controls);
+            };
+
+            func(Controls);
+        }
+
+        private void btnClear_Click(object sender, EventArgs e) //wywołanie funkcji czyszczenia textboxów
+        {
+            ClearTextBoxes();
         }
     }
     

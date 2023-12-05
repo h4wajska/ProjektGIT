@@ -11,3 +11,16 @@ C:\Users\marci\OneDrive\Dokumenty\A STUDIA PUT\VII SEMESTR\INTERFEJSY\Serwer\bin
 C:\Users\marci\OneDrive\Dokumenty\A STUDIA PUT\VII SEMESTR\INTERFEJSY\Serwer\obj\Debug\Serwer.csproj.CopyComplete
 C:\Users\marci\OneDrive\Dokumenty\A STUDIA PUT\VII SEMESTR\INTERFEJSY\Serwer\obj\Debug\Serwer.exe
 C:\Users\marci\OneDrive\Dokumenty\A STUDIA PUT\VII SEMESTR\INTERFEJSY\Serwer\obj\Debug\Serwer.pdb
+C:\Users\barto\OneDrive\Pulpit\Studia\Semestr 7\Interfejsy komunikacyjne\LabKubacki\ProjektGIT\Serwer\bin\Debug\Serwer.exe.config
+C:\Users\barto\OneDrive\Pulpit\Studia\Semestr 7\Interfejsy komunikacyjne\LabKubacki\ProjektGIT\Serwer\bin\Debug\Serwer.exe
+C:\Users\barto\OneDrive\Pulpit\Studia\Semestr 7\Interfejsy komunikacyjne\LabKubacki\ProjektGIT\Serwer\bin\Debug\Serwer.pdb
+C:\Users\barto\OneDrive\Pulpit\Studia\Semestr 7\Interfejsy komunikacyjne\LabKubacki\ProjektGIT\Serwer\bin\Debug\SimpleTCP.dll
+C:\Users\barto\OneDrive\Pulpit\Studia\Semestr 7\Interfejsy komunikacyjne\LabKubacki\ProjektGIT\Serwer\obj\Debug\Serwer.csproj.AssemblyReference.cache
+C:\Users\barto\OneDrive\Pulpit\Studia\Semestr 7\Interfejsy komunikacyjne\LabKubacki\ProjektGIT\Serwer\obj\Debug\Serwer.csproj.SuggestedBindingRedirects.cache
+C:\Users\barto\OneDrive\Pulpit\Studia\Semestr 7\Interfejsy komunikacyjne\LabKubacki\ProjektGIT\Serwer\obj\Debug\Serwer.Serwer.resources
+C:\Users\barto\OneDrive\Pulpit\Studia\Semestr 7\Interfejsy komunikacyjne\LabKubacki\ProjektGIT\Serwer\obj\Debug\Serwer.Properties.Resources.resources
+C:\Users\barto\OneDrive\Pulpit\Studia\Semestr 7\Interfejsy komunikacyjne\LabKubacki\ProjektGIT\Serwer\obj\Debug\Serwer.csproj.GenerateResource.cache
+C:\Users\barto\OneDrive\Pulpit\Studia\Semestr 7\Interfejsy komunikacyjne\LabKubacki\ProjektGIT\Serwer\obj\Debug\Serwer.csproj.CoreCompileInputs.cache
+C:\Users\barto\OneDrive\Pulpit\Studia\Semestr 7\Interfejsy komunikacyjne\LabKubacki\ProjektGIT\Serwer\obj\Debug\Serwer.csproj.CopyComplete
+C:\Users\barto\OneDrive\Pulpit\Studia\Semestr 7\Interfejsy komunikacyjne\LabKubacki\ProjektGIT\Serwer\obj\Debug\Serwer.exe
+C:\Users\barto\OneDrive\Pulpit\Studia\Semestr 7\Interfejsy komunikacyjne\LabKubacki\ProjektGIT\Serwer\obj\Debug\Serwer.pdb
